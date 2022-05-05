@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "XDML - 写代码啦",
+      title: "LBWinnie",
       template: "src/assets/index.html",
     }),
   ],
@@ -16,7 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"],
+        use: ["file-loader"], //生成文件路径
       },
       {
         test: /\.styl$/,
